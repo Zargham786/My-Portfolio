@@ -1,0 +1,112 @@
+body {
+  color: #40514e;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+#logo {
+  margin: 10px 34px;
+  border: solid black;
+}
+
+#logo img {
+  height: 7rem;
+  margin: 3px 6px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  background-color: #11999e;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: black;
+  padding: 3px 20px;
+  text-decoration: none;
+}
+#navbar ul li a:hover {
+  color: lightgreen;
+  background-color: #008073;
+}
+
+#intro-section {
+  background-color: #e3fdfd;
+  position: relative;
+  padding: 100px;
+  text-align: center;
+}
+
+hr {
+  border: dotted #3ca1a1 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+#projects h1 {
+  background-color: #008073;
+  text-align: center;
+}
+#projects ul {
+  margin: 1rem;
+  padding: 0rem 10rem 0rem 10rem;
+}
+
+#skills h1 {
+  text-align: center;
+  background-color: #008073;
+}
+
+#skills > h2 {
+  margin: 1rem;
+  padding: 0rem 10rem 0rem 10rem;
+}
+
+#skills ul {
+  margin: 1rem;
+  padding: 0rem 10rem 0rem 10rem;
+}
+
+#education h1 {
+  text-align: center;
+  background-color: #008073;
+}
+
+#education div {
+  margin: 1rem;
+  padding: 0rem 10rem 0rem 10rem;
+}
+ #contact{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+ }
+ .copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+
+  #contact{
+    text-align: center;
+  }
+
+  #contact a{
+      text-decoration: none;
+      color: black;
+      padding: 3px 20px;
+  }
+
+  #contact a:hover{
+      color: white;
+  }
